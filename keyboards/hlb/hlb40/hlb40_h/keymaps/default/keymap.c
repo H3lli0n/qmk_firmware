@@ -17,14 +17,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
             KC_LGUI,  KC_LALT,            KC_SPC,    MO(2),      KC_SPC,              KC_RALT,   KC_RGUI),
 
 // basic function layer
-[_FN] = LAYOUT_all(
+[_FN] = LAYOUT(
   KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,     KC_TRNS,     KC_TRNS,       KC_TRNS,      KC_TRNS,      KC_TRNS,   KC_TRNS,    KC_TRNS,  KC_TRNS,
   KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,     KC_TRNS,     KC_TRNS,       KC_TRNS,      KC_TRNS,      KC_TRNS,   KC_TRNS,    KC_TRNS,  KC_TRNS,
   KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,     KC_TRNS,     KC_TRNS,       KC_TRNS,      KC_TRNS,      KC_TRNS,   KC_TRNS,    KC_TRNS,  KC_TRNS,
             KC_TRNS,  KC_TRNS,               KC_TRNS,     KC_TRNS,       KC_TRNS,                    KC_TRNS,   KC_TRNS),
 
 // rgb/media layer
-[_MEDIA] = LAYOUT_all(
+[_MEDIA] = LAYOUT(
   KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,     KC_TRNS,     KC_TRNS,       KC_TRNS,      KC_TRNS,      KC_TRNS,   KC_TRNS,    KC_TRNS,  KC_TRNS,
   KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,     KC_TRNS,     KC_TRNS,       KC_TRNS,      KC_TRNS,      KC_TRNS,   KC_TRNS,    KC_TRNS,  KC_TRNS,
   KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,     KC_TRNS,     KC_TRNS,       KC_TRNS,      KC_TRNS,      KC_TRNS,   KC_TRNS,    KC_TRNS,  KC_TRNS,
